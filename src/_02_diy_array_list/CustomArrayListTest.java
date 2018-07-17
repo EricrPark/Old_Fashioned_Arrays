@@ -5,7 +5,8 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 public class CustomArrayListTest {
-
+	@Test
+	public void test() {}
 	@Test
 	public void testAddAndGet() {
 		ArrayList<Integer> list = new ArrayList<Integer>();
@@ -42,7 +43,7 @@ public class CustomArrayListTest {
 		list.add('G');
 		list.add('O');
 		
-		list.addAt(2, 'E');
+		list.add(2, 'E');
 		
 		if(list.get(0) != 'D') fail("list.get(0) returning improper value.");
 		if(list.get(1) != 'I') fail("list.get(1) returning improper value.");
