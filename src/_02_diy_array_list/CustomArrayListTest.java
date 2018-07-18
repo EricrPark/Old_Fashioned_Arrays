@@ -2,6 +2,8 @@ package _02_diy_array_list;
 
 import static org.junit.Assert.*;
 
+import java.util.ArrayList;
+
 import org.junit.Test;
 
 public class CustomArrayListTest {
